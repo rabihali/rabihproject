@@ -580,3 +580,23 @@ section{
    }
 
 }
+@media (min-width:320px) and (max-width:480px){
+   .portfolio-image{
+       width: 300px;
+   }
+}
+@media (min-width:481px) and (max-width:768px){
+   .portfolio-image{
+       width: 400px;
+   }
+}
+@media (min-width:769px) and (max-width:1024px){
+   .portfolio-image{
+       width: 600px;
+   }
+}
+@media (min-width:1025px) and (max-width:1200px){
+   .portfolio-image{
+       width: 1000px;
+   }
+}
